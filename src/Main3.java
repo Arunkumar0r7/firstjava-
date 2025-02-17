@@ -11,5 +11,6 @@ run time memeory allocation
 public class Main3{
     public static void main(String[] args) {
 
+        int num = 1;
     }
 }
