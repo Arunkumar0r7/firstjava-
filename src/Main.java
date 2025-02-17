@@ -1,12 +1,13 @@
 //normally printing hello world
 
+
 public class Main{
     public static void main(String[] args) {
         System.out.println("hello world ");
     }
 }
 
- data types
+ //data types
 //primitivee data type
 
 byte
@@ -84,12 +85,22 @@ public class Main {
     }
 }
 
+//scanner class
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        int num =scanner.nextInt();
+        System.out.println(num);
+    }
+}
+
 // reference data type
 //string
 //array
 // class and object
 
-/*public class Main {
+public class Main {
     public static void main(String[] args) {
         String name ="Arun";
         System.out.println(name);
@@ -106,15 +117,13 @@ public class Main {
     }
 }
 
-import java.util.concurrent.ThreadPoolExecutor;
+
 
 // control statments
 public class Main {
     public static void main(String[] args) {
-        Stri
-
-        ng a = "dinesh";
-        String b = "dinesh";
+        String a = "dinesh";
+        String b = "Arun";
         if(a==b) {
             System.out.println("arun is tester");
         }
@@ -132,13 +141,13 @@ public class Main
         int karthi = 30;
 
         if(arun<karthi){
-            System.out.println("Arun is gethu");
+            System.out.println("Arun is tester ");
         }
-        else if(30<=29){
-            System.out.println("karthi is gethu");
+        else if(arun<=karthi){
+            System.out.println("karthi is developer");
         }
         else{
-            System.out.println("renduperumea waste");
+            System.out.println("both are designer");
         }
     }
 }
@@ -152,9 +161,13 @@ public class Main {
                 break;
             case 2:
                 System.out.println(" this is two");
+                break;
+            case 3:
+                System.out.println("this is three");
+                break;
         }
     }
-}*/
+}
 
 
 
