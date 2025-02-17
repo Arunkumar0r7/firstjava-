@@ -1,4 +1,4 @@
-//normally printing hello world
+/*normally printing hello world
 
 
 public class Main{
@@ -167,7 +167,7 @@ public class Main {
                 break;
         }
     }
-}
+}*/
 
 
 
