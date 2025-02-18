@@ -1,25 +1,20 @@
-class animal {
+class animal{
 
-    void sleep(){
-        System.out.println("this animal is slepping");
+    int nolegs = 4;
+
+    void eat(){
+        System.out.println(" i am eating");
     }
 }
 
 class dog extends animal{
-    void eat(){
-        System.out.println("dog is eating");
-    }
-}
-
-class cat extends dog{
 
 }
 
 public class animal2 {
     public static void main(String[] args) {
-        dog name = new dog();
-        name.sleep();
-        name.eat();
-
+        dog obj = new dog();
+        System.out.println(obj.nolegs);
+        obj.eat();
     }
 }
